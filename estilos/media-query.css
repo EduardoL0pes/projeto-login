@@ -13,7 +13,7 @@
 
     section#login {
         width: 80vw;
-        height: 60vh;
+        height: 60vh; /*para fins de teste*/
     }
 
     section#login > div.imagem {
@@ -27,6 +27,14 @@
         float: right;
         width: 65%;
         /*height: 100%;*/
+    }
+
+    div.formulario > h1 {
+        font-size: 1.6em;
+    }
+
+    div.formulario > p {
+        font-size: 1.1em;  
     }
 }
 
@@ -50,5 +58,14 @@
         float: left;
         width: 50%;
         /*height: 100%;*/
+    }
+
+    div.formulario > h1 {
+        font-size: 2em;
+    }
+    
+    div.formulario > p {
+        font-size: 1.2em;
+        
     }
 }
