@@ -4,8 +4,8 @@
     --cor01-verde: #49a09d;
     --cor02-lilas: #5f2c82;
 }
-                /*valor original do min-width 768px alterei para fins de teste*/
-@media screen and (min-width: 750px) and (max-width: 992px){
+                
+@media screen and (min-width: 768px) and (max-width: 992px){
     
     body {
         background-image: linear-gradient(to top, var(--cor01-verde), var(--cor02-lilas));
@@ -13,7 +13,7 @@
 
     section#login {
         width: 80vw;
-        height: 50vh;
+        height: 60vh;
     }
 
     section#login > div.imagem {
@@ -26,7 +26,7 @@
     section#login > div.formulario {
         float: right;
         width: 65%;
-        height: 100%;
+        /*height: 100%;*/
     }
 }
 
@@ -49,6 +49,6 @@
     section#login > div.formulario {
         float: left;
         width: 50%;
-        height: 100%;
+        /*height: 100%;*/
     }
 }
