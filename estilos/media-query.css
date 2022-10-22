@@ -6,14 +6,14 @@
 }
                 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    
+    /* Configuração para TABLET*/
     body {
         background-image: linear-gradient(to top, var(--cor01-verde), var(--cor02-lilas));
     }
 
     section#login {
         width: 80vw;
-        height: 60vh; /*para fins de teste*/
+        height: 350px; 
     }
 
     section#login > div.imagem {
@@ -34,18 +34,20 @@
     }
 
     div.formulario > p {
-        font-size: 1.1em;  
+        font-size: 1.1em; 
+        margin-bottom: 20px;
     }
 }
 
 @media screen and (min-width: 992px) {
-    
+    /* Configuração para Telas maiores */
     body {
         background-image: linear-gradient(to top, var(--cor01-verde), var(--cor02-lilas));
     }
     
     section#login {
         width: 950px;
+        height: 430px;
     }
 
     section#login > div.imagem {
@@ -65,7 +67,7 @@
     }
     
     div.formulario > p {
-        font-size: 1.2em;
-        
+        font-size: 1.1em;
+        margin-bottom: 25px;   
     }
 }
